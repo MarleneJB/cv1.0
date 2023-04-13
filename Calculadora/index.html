@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="proyecto">
+        <h1>Calculadora</h1>    
+        <div class="calculadora-proyecto">
+            <input type="text" class="pantalla" disabled />
+            <div class="teclas">
+                <button type="button" class="operadores" value="sqrt">&radic;</button>
+                <button type="button" class="operadores" value="/">&divide;</button>
+                <button type="button" class="operadores" value="*">&times;</button>
+                <button type="button" class="operadores" value="-">-</button><br>
+                <button type="button" value="1">1</button>
+                <button type="button" value="2">2</button>
+                <button type="button" value="3">3</button><br>
+                <button type="button" value="4">4</button>
+                <button type="button" value="5">5</button>
+                <button type="button" value="6">6</button>
+                <button type="button" class="operadores" id="boton-suma" value="+">+</button><br>
+                <button type="button" value="7">7</button>
+                <button type="button" value="8">8</button>
+                <button type="button" value="9">9</button>
+                <button type="button" class="operadores" value="^">^</button><br>
+                <button type="button" class="decimal" value=".">.</button>
+                <button type="button" value="0">0</button>
+                <button type="button" class="all-clear" value="AC">AC</button>
+                <button type="button" class="equal-sign operador" value="=">=</button>
+            </div>
+        </div>
+        <div class="explicacion">
+            <p>El proyecto de la calculadora es una aplicación web que permite realizar operaciones matemáticas simples como suma, resta, multiplicación, división y potenciación, así como también calcular la raíz cuadrada de un número.</p>
+            <p>La calculadora está construida con HTML, CSS y JavaScript. El HTML define la estructura de la página, el CSS se encarga del diseño y la presentación visual de la calculadora, mientras que el JavaScript maneja la lógica y las operaciones matemáticas.</p>
+            <p>En el HTML, la calculadora consiste en un input que funciona como pantalla y una serie de botones que representan los números y las operaciones. Los botones se agrupan en divs que los contienen y los separan visualmente.</p>
+            <p>El CSS define el diseño y la presentación visual de la calculadora, incluyendo los colores de los botones, el tamaño de la pantalla y los efectos visuales cuando se presionan los botones.</p>
+            <p>El JavaScript es el encargado de manejar la lógica y las operaciones matemáticas. Se definen varias funciones que se encargan de manejar diferentes eventos, como la actualización de la pantalla, la adición de números y operaciones, y el cálculo del resultado.</p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

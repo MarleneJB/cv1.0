@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Información del Clima</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/API CLIMA/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAePtGRYJ229vLyzRWu3YaNS5UHLHbXmuc&libraries=places"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<main>
+    <div class="icon">
+        <img src="img/arco-iris.png" alt="">
+    </div>
+    <form>
+        <label for="city">Ciudad:</label>
+        <input type="text" id="city" name="city" autocomplete="off">
+        <button type="button" id="get-weather-btn">Obtener clima</button>
+    </form>
+    <section>
+        <div class="info-container">
+            <h2 id="city-name"></h2>
+            <p>La temperatura actual en <span id="city-name-small"></span> es de: <span id="temperature"></span>.</p>
+            <p id="description"></p>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2023 - Derechos reservados |  Marlene Brenis  </p>
+</footer>
+</body>
+</html>
